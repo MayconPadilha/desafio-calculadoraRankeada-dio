@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sword</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/595/595587.png" type="image/png">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Sword</h1>
+        <div id="telaInicio">
+            <div>
+                <label for="name">Digite o nome do Herói</label>
+                <input id="name" type="text" placeholder="Seu nome aqui">
+            </div>
+
+            <div class="btnInicio">
+                <button class="escolhasBtn" onClick="IniciarJogo()">Iniciar Jogo</button>
+                <a class="escolhasBtn" href="./info.html">i</a>
+            </div>
+
+            <p>[BETA]</p>
+            <p>ATENÇÃO: Ao Realizar uma batalha comum você tem 70% de chance de vencer e <br>50% de vencer o Boss!!!</p>
+        </div>
+
+        <div id="telaJogo" style="display: none;">
+            <div id="apresentacao"></div>
+            <p>o que deseja fazer?</p>
+
+            <div id="exibirVida"></div>
+
+            <div id="escolhas">
+                <button class="escolhasBtn" onClick="exibirNivel()">Exibir Nivel</button>
+                <button class="escolhasBtn" onClick="batalha()">Batalhar</button>
+                <button class="escolhasBtn" onClick="desafiarBoss()">Desafiar Boss</button>
+            </div>
+        </div>
+
+        <div id="telaResultado"></div>
+
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/maycon-padilha/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="imagem linkedin">
+        </a>
+
+        <a href="https://github.com/MayconPadilha" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/128/733/733609.png" alt="imagem github">
+        </a>
+    </footer>
+
+    <script src="./jogo.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  font-size: 23px;
+}
+
+.btnVoltar {
+  position: fixed;
+  top: 0;
+  left: 5px;
+  width: 44px;
+  margin-left: 20px;
+}
+
+main {
+  margin: 0 10% 0px 10%;
+}
+
+ul, li{
+    text-align: left;
+}
+
+footer {
+  background-color: #d6cff52b;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
